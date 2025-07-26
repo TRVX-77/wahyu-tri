@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wahyu Tri Nursetyo</title>
+  <style>
+    :root {
+      --primary-color: #1e3a8a;
+      --secondary-color: #f3f4f6;
+      --text-color: #111827;
+      --accent-color: #60a5fa;
+      --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--secondary-color);
+  color: var(--text-color);
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #1e3a8a, #64748b);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.content {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bio {
+  margin-bottom: 3rem;
+}
+
+.bio h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.bio p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.achievements {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.achievements h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.achievements ul {
+  list-style-type: '\2714';
+  padding-left: 1.2rem;
+}
+
+.achievements li {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+footer {
+  background: var(--primary-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contacts {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halo, Saya Wahyu Tri Nursetyo</h1>
+  </header>  <div class="content">
+    <div class="bio">
+      <h2>Tentang Saya</h2>
+      <p>Halo, nama saya Wahyu Tri Nursetyo, Salam Kenal! Saya adalah siswa SMA (saat ini), I'm 16 anyway, sebelumnya terima kasih sudah membuka website sederhana saya. Website ini saya buat dengan segala antusias saya terhadap teknologi untuk membuat diri saya lebih dikenal orang, karena saya hanya seorang anak pendiam yang mungkin susah bergaul.</p>
+    </div><div class="achievements">
+  <h3>Pencapaian Saya</h3>
+  <ul>
+    <li>Saya dinobatkan sebagai lulusan terbaik di sekolah dasar saya, yaitu SDN Limusnunggal 01 dengan nilai 94.00 (SKNA) dan 96.00 (Nilai Ujian)</li>
+    <li>Saya dinobatkan sebagai Lulusan Terbaik di sekolah menengah pertama saya, yaitu SMPN 31 Kota Bekasi</li>
+    <li>Saya berhasil meraih Ranking 1 pada kelas I angkatan 18 selama 6 semester berturut-turut</li>
+    <li>Saya memenangkan total 9 medali akademik Non-Formal (IPA, IPS, Bahasa dan PPKN)</li>
+    <li>Saya memenangkan 4 kejuaraan Non-akademik di beberapa kejuaraan non-formal dan formal (Badminton, Futsal)</li>
+    <li>Saya mengikuti sekitar 55 kejuaraan E-Sport Mobile Legends dan PUBG Mobile, dengan perolehan juara sebanyak 34 kali di MLBB dan 8 kali di PUBG Mobile</li>
+  </ul>
+</div>
+
+  </div>  <footer>
+    <p>Sedikit media sosial dan kontak saya untuk lebih memudahkan menghubungi saya:</p>
+    <div class="contacts">
+      <div class="contact-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+        <span>+62-858-1348-3584</span>
+      </div>
+      <div class="contact-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        <span>@trisetyoo_799</span>
+      </div>
+      <div class="contact-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email" />
+        <span>wahyutrinursetyo7@gmail.com</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
